@@ -1,0 +1,20 @@
+body {
+	background-color: #EAE8E2;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.registerform {
+	width: 40vw;
+	height: 60vh;
+}
+
+.form-group {
+	background-color: white;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 20px;
+}
