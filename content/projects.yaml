@@ -1,0 +1,20 @@
+- name: Smart Brain
+  url: https://minhphan2603.github.io/SmartBrain/
+  description: Web app that recognize face in the imported image by provided api from https://www.clarifai.com/
+  status: live
+  tags:
+    - React
+    - HTML
+    - CSS
+  icon: website
+  image: images/faceRecognition.jpg
+
+- name: Ford's homepage
+  url: https://minhphan2603.github.io/Ford/
+  description: Simulate Ford's homepage by only HTML / CSS
+  status: live
+  tags:
+    - HTML
+    - CSS
+  icon: github
+  image: images/ford-logo.png

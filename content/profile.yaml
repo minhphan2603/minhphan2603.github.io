@@ -1,0 +1,34 @@
+- profile:
+  initials: MP
+  name: Minh Phan
+  profession: Web Developer
+  image: images/profile.jpg
+  location: Ho Chi Minh City, Vietnam
+  relocation: true
+  company: Viatick
+  for_hire: true
+  focus: Learning Software Engineering
+  focus_url: https://gatsbyjs.org
+  about: |
+    Experienced Full Stack Engineer with a demonstrated history of working in the financial services industry.
+
+    Skilled in Back-End Web Development, Full-Stack Development, JavaScript, React.js, and PostgreSQL.
+
+    Strong engineering professional with a Bachelor of Engineering - BE from Ho Chi Minh City University of Technology - Vietnam National University.
+  skills:
+    - JavaScript / TypeScript / NodeJS
+    - HTML / CSS
+    - Excel / VBA
+  tools:
+    - React
+    - NextJS
+    - Gatsby
+    - UmiJS
+    - ExpressJS
+    - PostgreSQL
+    - MongoDB
+  budget:
+    currency: $
+    min: 5
+    max: 30
+    default: 10
