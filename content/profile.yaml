@@ -1,14 +1,14 @@
 - profile:
   initials: MP
   name: Minh Phan
-  profession: Web Developer
+  profession: Full-stack Web Developer
   image: images/profile.jpg
   location: Ho Chi Minh City, Vietnam
   relocation: true
   company: Viatick
   for_hire: true
   focus: Learning Software Engineering
-  focus_url: https://gatsbyjs.org
+  focus_url: https://www.linkedin.com/in/minhphan2603/
   about: |
     Experienced Full Stack Engineer with a demonstrated history of working in the financial services industry.
 
