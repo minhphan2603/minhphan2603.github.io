@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@wkocjan/gatsby-theme-intro": "^2.0.0",
-    "gatsby": "^3.3.0",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-postcss": "^4.3.0",
     "gh-pages": "^3.1.0",
     "react": "^17.0.2",
