@@ -10,6 +10,7 @@ const requiredFiles = [
   "index.html",
   "styles.css",
   "script.js",
+  "assets/bokphet-preview.jpg",
   "assets/minh-phan-cv.pdf",
   "assets/profile.jpg",
 ];
