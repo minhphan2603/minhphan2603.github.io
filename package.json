@@ -1,20 +1,32 @@
 {
-  "name": "minhpahn2603.github.io",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "minhphan2603.github.io",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Portfolio of Minh Phan — Full-Stack Engineer focused on AI products and design tooling.",
   "homepage": "https://minhphan2603.github.io/",
-  "scripts": {
-    "start:dev": "npx gatsby develop",
-    "predeploy": "npx gatsby build",
-    "deploy": "gh-pages -d public"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhphan2603/minhphan2603.github.io.git"
   },
-  "dependencies": {
-    "@wkocjan/gatsby-theme-intro": "^2.0.0",
-    "gatsby": "^3.3.0",
-    "gatsby-plugin-postcss": "^4.3.0",
-    "gh-pages": "^3.1.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+  "keywords": [
+    "portfolio",
+    "full-stack-engineer",
+    "product-engineer",
+    "ai-saas"
+  ],
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "npm run check",
+    "serve": "node scripts/serve.mjs",
+    "start": "npm run build && npm run serve",
+    "preview": "npm start",
+    "deploy": "npm run check && npm run build && npx --yes gh-pages -d public"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "license": "MIT",
+  "author": "Phan Huynh Nhat Minh"
 }
